@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> my first HTML project </title>
+    <style>
+        .p1 {
+            font-family: "Lucida Console", "Courier New", monospace;
+          }
+    </style>
+</head>
+<body>
+    <h2> Practice page </h2>
+    <h3> About me </h3>
+    <p class = 'p1'> My name is Lydia and I am studying Computer Science at Durham university. </p>
+    <hr>
+    <h3> HTML </h3>
+    <p> HTML is a markup language which has many elements: </p>
+    <ul>
+        <li> Headings </li>
+        <li> Paragraphs </li>
+        <li> Links </li>
+        <li> Forms </li>
+    </ul>
+    <table>
+        <th>
+            <td> Email </td>
+            <td> Name </td>
+            <td> Age </td>
+        </th>
+    </table>
+    <form>
+        <input type = "text">
+        <input type = "week">
+        <label for = "vegetables">Pick peas</label>
+        <input type = "checkbox" name = "vegetables" id = "peas">
+        <button type = "button">I am a button</button>
+        <select name = "pets" id = "pet-select">
+            <option value = "dog">Dog</option>
+            <option value = "cat">Cat</option>
+            <option value="hamster">Hamster</option>
+            <option value="parrot" disabled>Parrot</option>
+            <option value="spider">Spider</option>
+            <option value="goldfish">Goldfish</option>
+        </select>
+    </form>
+    <input type = "submit" value = "Submit" method = "post">
+    <img src = "bagels.jpeg" alt = "bagels">
+</body>
+</html>
